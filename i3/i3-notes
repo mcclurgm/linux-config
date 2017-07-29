@@ -1,0 +1,2 @@
+pactl set-sink-volume 1 +25%
+headphones: 2
