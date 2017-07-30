@@ -197,13 +197,13 @@ for_window [class="^.*"] border pixel 2
 
 ## BINDINGS
 # launchers
-bindsym $mod+space exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -b -fn 'Open Sans:pixelsize=36' -nb '$bg' -nf '$fg' -sf '$fg' -sb '$bg2' "
-bindsym $mod+d exec dmenu_run -i -b -fn 'Open Sans:pixelsize=36' -nb '$bg' -nf '$fg' -sf '$fg' -sb '$bg2'
-bindsym $mod+Shift+d exec --no-startup-id rofi -show run -font "Inconsolata 30"
+# bindsym $mod+space exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -b -fn 'M+ 2c:pixelsize=40' -nb '$bg' -nf '$fg' -sf '$fg' -sb '$bg2' "
+# bindsym $mod+d exec dmenu_run -i -b -fn 'M+ 2c:pixelsize=40' -nb '$bg' -nf '$fg' -sf '$fg' -sb '$bg2'
+bindsym $mod+space exec --no-startup-id rofi -show drun -font "M+ 2c 30"
+bindsym $mod+d exec --no-startup-id rofi -show run -font "M+ 2c 30"
 
 # windows
-bindsym $mod+Tab exec --no-startup-id rofi -modi window -show window -font "Inconsolata 30"
-bindsym $mod rofi -show run -font "Inconsolata 30"
+bindsym $mod+Tab exec --no-startup-id rofi -modi window -show window -font "M+ 2c 30"
 
 # kill
 bindsym $mod+q kill
