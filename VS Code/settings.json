@@ -1,12 +1,11 @@
-// Place your settings in this file to overwrite the default settings
 {
-    "files.autoSave": "afterDelay",
-    "editor.wordWrap":"on",
-    "workbench.colorTheme": "Solarized Dark",
     "window.menuBarVisibility": "toggle",
-    "workbench.iconTheme": "vs-seti",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.fontFamily": "'M+ 1mn', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "Inconsolata",
+    "editor.wordWrap": "on",
     "zenMode.fullScreen": false,
-    "editor.fontFamily": "'M+ 1M','Iosevka', 'Inconsolata', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 16,
-    "window.zoomLevel": -3
+    "editor.fontSize": 15
 }

@@ -10,9 +10,9 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="lock-bg.svg"
-   inkscape:export-filename="/home/michael/Pictures/lock.png"
-   inkscape:export-xdpi="960"
-   inkscape:export-ydpi="960"
+   inkscape:export-filename="/home/michael/Documents/linux-config/i3/lock-icon.png"
+   inkscape:export-xdpi="128"
+   inkscape:export-ydpi="128"
    height="16"
    id="svg7384"
    version="1.1"
@@ -37,8 +37,8 @@
      bordercolor="#666666"
      borderopacity="1"
      inkscape:current-layer="layer9"
-     inkscape:cx="89.773674"
-     inkscape:cy="199.5078"
+     inkscape:cx="-8.7858353"
+     inkscape:cy="-255.74461"
      gridtolerance="10"
      inkscape:guide-bbox="true"
      guidetolerance="10"
@@ -47,7 +47,7 @@
      inkscape:object-paths="false"
      objecttolerance="10"
      pagecolor="#3a3b39"
-     inkscape:pageopacity="1"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      showborder="false"
      showgrid="false"
@@ -59,13 +59,14 @@
      inkscape:snap-nodes="true"
      inkscape:snap-others="false"
      inkscape:snap-to-guides="true"
-     inkscape:window-height="822"
+     inkscape:window-height="1638"
      inkscape:window-maximized="0"
-     inkscape:window-width="1547"
-     inkscape:window-x="24"
-     inkscape:window-y="24"
+     inkscape:window-width="3094"
+     inkscape:window-x="49"
+     inkscape:window-y="49"
      inkscape:zoom="1"
-     inkscape:document-rotation="0">
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="false">
     <inkscape:grid
        dotted="false"
        empspacing="2"
@@ -92,14 +93,18 @@
     <circle
        style="opacity:0.95;fill:#e7e8eb;fill-opacity:1;stroke-width:10.18997288"
        id="path4275"
-       cx="331.00021"
+       cx="31.000214"
        cy="103"
-       r="150" />
+       r="150"
+       inkscape:export-xdpi="128"
+       inkscape:export-ydpi="128" />
     <path
        inkscape:connector-curvature="0"
-       d="m 321.0003,38.00005 c -16.44715,0 -30,13.55285 -30,30 v 30.000025 h -10.0002 c -5.5398,0 -9.9999,4.459805 -9.9999,9.999875 v 5.3126 54.6874 h 50.0001 19.9998 50.0001 v -54.6874 -5.31262 c 0,-5.54005 -4.4601,-9.99988 -9.9999,-9.99988 H 371.0001 V 68.000025 c 0,-16.44715 -13.55285,-30 -30,-30 z m 0,19.999825 h 19.9998 c 5.71298,0 10.0002,4.2872 10.0002,10.000175 V 98.000075 H 311.0001 V 68.00005 c 0,-5.712975 4.28723,-10.000175 10.0002,-10.000175 z"
+       d="m 21.000312,30.000063 c -16.4471464,0 -29.9999964,13.55285 -29.9999964,30 V 90.00009 H -18.999884 c -5.5398,0 -9.9999,4.4598 -9.9999,9.99987 v 5.3126 54.6874 h 50.000096 19.9998 50.0001 v -54.6874 -5.31262 c 0,-5.54005 -4.4601,-9.999876 -9.9999,-9.999876 h -10.0002 V 60.000039 c 0,-16.44715 -13.55285,-30 -30,-30 z m 0,19.999825 h 19.9998 c 5.71298,0 10.0002,4.2872 10.0002,10.000175 V 90.00009 h -40.0002 V 60.000063 c 0,-5.712975 4.28723,-10.000175 10.0002,-10.000175 z"
        id="path5721"
-       style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#70788d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:19.99999237;marker:none" />
+       style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#70788d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:19.99999237;marker:none"
+       inkscape:export-xdpi="128"
+       inkscape:export-ydpi="128" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -133,13 +138,13 @@
      inkscape:groupmode="layer"
      id="g71291"
      inkscape:label="emotes"
-     style="display:inline"
+     style="display:none"
      transform="translate(-181.0002,-237)" />
   <g
      inkscape:groupmode="layer"
      id="g4953"
      inkscape:label="categories"
-     style="display:inline"
+     style="display:none"
      transform="translate(-181.0002,-237)" />
   <g
      inkscape:groupmode="layer"
