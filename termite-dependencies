@@ -1,0 +1,15 @@
+intltool xml2 gperf
+pcre2-devel
+libtool
+gnutls-devel 
+gtk-doc
+redhat-rpm-config
+clang 
+vala vala-devel
+
+INSTALL:
+cd vte-ng
+autoreconf
+automake --add-missing
+./autogen.sh
+./configure
