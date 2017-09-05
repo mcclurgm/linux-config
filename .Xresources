@@ -1,0 +1,17 @@
+Xft.dpi: 192
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+URxvt*font: xft:M+ 1mn:size=11
+URxvt*scrollBar: false
+URxvt.perl-ext: default,matcher
+URxvt.transparent: true
+URxvt.urlLauncher: /usr/bin/firefox
+URxvt*keysym.Shift-Control-V: perl:clipboard:paste
+URxvt*keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.internalBorder: 6
+URxvt*cursorBlink: true
