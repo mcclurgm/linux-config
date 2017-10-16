@@ -10,3 +10,6 @@ fi
 
 # User specific aliases and functions
 (wal -r &)
+
+alias stdwal='wal -t -i'
+alias colorcheck='nano /usr/share/themes/Arc/gnome-shell/gnome-shell.css'
