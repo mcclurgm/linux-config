@@ -104,6 +104,9 @@ bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
+bindsym $mod+m workspace 11
+bindsym $mod+Next workspace next
+bindsym $mod+Prior workspace prev
 
 # move focused container to workspace and switch to workspace
 bindsym $mod+Shift+1 move container to workspace 1, workspace 1
@@ -116,11 +119,12 @@ bindsym $mod+Shift+7 move container to workspace 7, workspace 7
 bindsym $mod+Shift+8 move container to workspace 8, workspace 8
 bindsym $mod+Shift+9 move container to workspace 9, workspace 9
 bindsym $mod+Shift+0 move container to workspace 10, workspace 10
-# bindsym $mod+Shift+control+Down move container to workspace next, workspace next
-# bindsym $mod+Shift+control+Up move container to workspace previous, workspace previous
+bindsym $mod+Shift+Next move container to workspace next, workspace next
+bindsym $mod+Shift+Prior move container to workspace previous, workspace previous
 
 assign [class="spotify"] 11
 bindsym $mod+s for_windoow [class="Gnome-terminal"] move window to workspace 2
+bindsym $mod+Shift+m workspace 11, exec spotify
 
 # move focused container to workspace and switch to workspace
 bindsym $mod+control+Shift+1 move container to workspace 1
@@ -133,8 +137,8 @@ bindsym $mod+control+Shift+7 move container to workspace 7
 bindsym $mod+control+Shift+8 move container to workspace 8
 bindsym $mod+control+Shift+9 move container to workspace 9
 bindsym $mod+control+Shift+0 move container to workspace 10
-bindsym $mod+Shift+control+Down move container to workspace next 
-bindsym $mod+Shift+control+Up move container to workspace previous
+bindsym $mod+control+Shift+Next move container to workspace next 
+bindsym $mod+Shift+control+Prior move container to workspace previous
 
 
 # reload the configuration file
@@ -160,7 +164,7 @@ mode "resize" {
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resizedesign shrink height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
         bindsym Right resize grow width 10 px or 10 ppt
 
         # back to normal: Enter or Escape

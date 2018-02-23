@@ -52,18 +52,18 @@ spacing = 0
 padding-left = 1
 padding-right = 2
 
-module-margin-left = 2
-module-margin-right = 2
+module-margin-left = 1
+module-margin-right = 1
 
-font-2 = Material Icons:fontformat=truetype:size=22;6
-;font-0 = M+ 1c Regular:fontformat=truetype:size=22;4
-font-3 = Material Design Icons:fontformat=truetype:size=22;4
-font-1 = Iosevka Medium:fontformat=truetype:size=24;4
-font-0 = Open Sans:fontformat=truetype:size=22;4
+;font-0 = Iosevka Medium:fontformat=truetype:size=24;4
+font-0 = iA Writer Duospace:fontformat=opentype:size=22;4
+;font-0 = Open Sans:fontformat=truetype:size=22;4
+font-1 = Material Icons:fontformat=truetype:size=22;6
+font-2 = Material Design Icons:fontformat=truetype:size=22;4
 
 modules-left = i3
 modules-center = musictrack musicartist
-modules-right = volume2 battery network date
+modules-right = cpu memory battery volume2 network date
 
 tray-position = right
 tray-padding = 9
@@ -80,23 +80,24 @@ wm-restack = i3
 
 [module/i3]
 type = internal/i3
+wrapping-scroll = false
+
+format = <label-state> <label-mode>
 
 label-unfocused-background = ${colors.my_background}
 label-unfocused-foreground = ${colors.my_foreground}
 
 label-mode = %mode%
 label-mode-padding = 2
-label-mode-background = ${colors.my_background}
 label-mode-foreground = ${colors.my_foreground}
 label-mode-underline = ${colors.my_color4}
 
-label-focused = %index%
+label-focused = %icon%
 label-focused-foreground = ${colors.my_foreground}
-label-focused-background = ${colors.my_background}
 label-focused-underline = ${colors.my_color4}
 label-focused-padding = 2
 
-label-unfocused = %index%
+label-unfocused = %icon%
 label-unfocused-padding = 2
 
 label-visible = %index%
@@ -109,13 +110,25 @@ label-urgent-background = ${colors.my_background}
 label-urgent-underline = ${colors.my_color8}
 label-urgent-padding = 2
 
+ws-icon-0 = 1;1
+ws-icon-1 = 2;2
+ws-icon-2 = 3;3
+ws-icon-3 = 4;4
+ws-icon-4 = 5;5
+ws-icon-5 = 6;6
+ws-icon-6 = 7;7
+ws-icon-7 = 8;8
+ws-icon-8 = 9;9
+ws-icon-9 = 10;10
+ws-icon-10 = 11;
+
 [module/musictrack]
 type = custom/script
 
 exec = ~/.config/polybar/track.sh
 interval = 2
 format = <label>
-label = %output:0:40:...%
+label = %output:0:50:...%
 format-foreground = ${colors.my_color6}
 
 [module/musicartist]
@@ -192,8 +205,8 @@ format-full-background = ${colors.my_background}
 format-full-foreground = ${colors.my_color7}
 ;format-full-underline = ${colors.my_color2}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
+ramp-capacity-0 =  
+ramp-capacity-1 =  
 ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-4 = 
@@ -231,7 +244,7 @@ format-volume = "<ramp-volume>"
 
 ;format-muted = "<label-muted> "
 format-muted = ""
-format-muted-underline = ${colors.my_color2}
+;format-muted-underline = ${colors.my_color2}
 
 ramp-volume-0 =  0
 ramp-volume-1 =  1
@@ -285,3 +298,25 @@ bar-volume-fill = ─
 bar-volume-empty-font = 2
 bar-volume-empty = ─
 bar-volume-empty-foreground = ${colors.my_foreground}
+
+[module/memory]
+type = internal/memory
+
+format =  <label>
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+
+format = <ramp-load>
+ramp-load-0 =
+ramp-load-1 =
+ramp-load-2 =  2
+ramp-load-3 =  3
+ramp-load-4 =  4
+ramp-load-5 =  5
+ramp-load-6 =  6
+ramp-load-7 =  7
+ramp-load-8 =  8
+ramp-load-9 =  9
+ramp-load-10 =  10
