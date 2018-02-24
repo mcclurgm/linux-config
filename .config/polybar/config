@@ -306,7 +306,7 @@ format =  <label>
 
 [module/cpu]
 type = internal/cpu
-interval = 2
+interval = 5
 
 format = <ramp-load>
 ramp-load-0 =

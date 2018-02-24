@@ -120,7 +120,7 @@ bindsym $mod+Shift+8 move container to workspace 8, workspace 8
 bindsym $mod+Shift+9 move container to workspace 9, workspace 9
 bindsym $mod+Shift+0 move container to workspace 10, workspace 10
 bindsym $mod+Shift+Next move container to workspace next, workspace next
-bindsym $mod+Shift+Prior move container to workspace previous, workspace previous
+bindsym $mod+Shift+Prior move container to workspace previous, workspace prev
 
 assign [class="spotify"] 11
 bindsym $mod+s for_windoow [class="Gnome-terminal"] move window to workspace 2
@@ -137,7 +137,7 @@ bindsym $mod+control+Shift+7 move container to workspace 7
 bindsym $mod+control+Shift+8 move container to workspace 8
 bindsym $mod+control+Shift+9 move container to workspace 9
 bindsym $mod+control+Shift+0 move container to workspace 10
-bindsym $mod+control+Shift+Next move container to workspace next 
+bindsym $mod+control+Shift+Next move container to workspace next
 bindsym $mod+Shift+control+Prior move container to workspace previous
 
 
@@ -211,7 +211,7 @@ set_from_resource $barselect i3wm.color2
 
 # class                 border  backgr. text    indicator child_border
 #client.focused         #0088CC #0088CC #ffffff #dddddd
-client.focused          $bg     $bg     $fg     $bg       $bg  
+client.focused          $bg     $bg     $fg     $bg       $bg
 client.focused_inactive $bg     $bg     $fg     $bg       $bg
 client.unfocused        $bgu    $bgu    $bg     $bg       $bgu
 client.urgent           $bg     $bg     $fg     $bg       $bg
