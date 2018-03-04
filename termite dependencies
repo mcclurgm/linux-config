@@ -1,9 +1,0 @@
-gnutls intltool pcre2 gnutls xml2 gperf
-pcre2-devel
-libtools
-gnutls-devel intltool
-gtk-doc
-redhat-rpm-config
-clang gcc
-vala valadevel
-redhat-rpm-config

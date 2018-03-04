@@ -1,2 +1,2 @@
-xinput set-prop 12 277 1
-xinput set-prop 12 285 1
+exec xinput set-prop 12 278 1 &
+exec xinput set-prop 12 286 1 &
