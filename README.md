@@ -10,8 +10,13 @@
 
 `.Xresources-colors`: `~`
 
-`.bashrc`: ~  
-  * Setup wal for each new terminal  
+`.bashrc`: ~
+  * Setup wal for each new terminal
   * Assign aliases
   
  `scripts`: `~/.bin/scripts`
+
+`xorg.conf.d`: `/usr/share/X11/xorg.conf.d`
+  * Default x settings. It's all very confusing, but I have it
+  * Currently just libinput changes to get gnome-like touchpad
+  * Uncertain of numbers, but libinput is 40 so I put touchpad one higher

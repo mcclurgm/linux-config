@@ -1,2 +1,0 @@
-exec xinput set-prop 12 278 1 &
-exec xinput set-prop 12 286 1 &
