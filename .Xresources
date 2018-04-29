@@ -6,12 +6,12 @@ Xft.hinting: true
 Xft.antialias: true
 Xft.rgba: rgb
 
-URxvt*font: xft:M+ 1mn:size=11
+URxvt*font: xft:Inconsolata:size=11
 URxvt*scrollBar: false
 URxvt.perl-ext: default,matcher
-URxvt.transparent: true
+URxvt.transparent: false
 URxvt.urlLauncher: /usr/bin/firefox
 URxvt*keysym.Shift-Control-V: perl:clipboard:paste
-URxvt*keysym.Shift-Control-C: perl:clipboard:copy
+URxvt*keysym.Shift-Control-C: perl:clipboad:copy
 URxvt.internalBorder: 6
 URxvt*cursorBlink: true
