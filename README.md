@@ -20,3 +20,7 @@
   * Default x settings. It's all very confusing, but I have it
   * Currently just libinput changes to get gnome-like touchpad
   * Uncertain of numbers, but libinput is 40 so I put touchpad one higher
+
+## Themes
+### Plasma themes
+Location: `~/.local/share/plasma/desktoptheme`
