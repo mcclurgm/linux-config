@@ -1,0 +1,64 @@
+[ContrastEffect]
+contrast=0.2
+enabled=true
+saturation=1.7
+
+[Desktop Entry]
+Name=Breeze Monokai Again
+Name[ar]=نسيم
+Name[ast]=Breeze Monokai Again
+Name[ca@valencia]=Brisa
+Name[ca]=Brisa
+Name[cs]=Breeze Monokai Again
+Name[da]=Breeze Monokai Again
+Name[de]=Breeze Monokai Again
+Name[en_GB]=Breeze Monokai Again
+Name[es]=Brisa
+Name[et]=Breeze Monokai Again
+Name[eu]=Breeze Monokai Again
+Name[fi]=Breeze Monokai Again
+Name[fr]=Breeze Monokai Again
+Name[gd]=Oiteag
+Name[gl]=Breeze Monokai Again
+Name[hu]=Breeze Monokai Again
+Name[ia]=Brisa
+Name[id]=Breeze Monokai Again
+Name[it]=Brezza
+Name[ko]=Breeze Monokai Again
+Name[lt]=Breeze Monokai Again
+Name[nb]=Bris
+Name[nds]=Breeze Monokai Again
+Name[nl]=Breeze Monokai Again
+Name[nn]=Breeze Monokai Again
+Name[pl]=Bryza
+Name[pt]=Brisa
+Name[pt_BR]=Breeze Monokai Again
+Name[ru]=Breeze Monokai Again
+Name[sk]=Vánok
+Name[sl]=Sapica
+Name[sr@ijekavian]=Поветарац
+Name[sr@ijekavianlatin]=Povetarac
+Name[sr@latin]=Povetarac
+Name[sr]=Поветарац
+Name[sv]=Breeze Monokai Again
+Name[tr]=Esintili
+Name[uk]=Breeze Monokai Again
+Name[x-test]=xxBreeze Monokai Againxx
+Name[zh_CN]=微风
+Name[zh_TW]=Breeze Monokai Again
+X-KDE-PluginInfo-Author=KDE Visual Design Group
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-Email=kde-artists@kde.org
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=LGPL
+X-KDE-PluginInfo-Name=default
+X-KDE-PluginInfo-Version=5.30.8
+X-KDE-PluginInfo-Website=http://plasma.kde.org
+X-Plasma-API=5.0
+
+[Wallpaper]
+defaultFileSuffix=.png
+defaultHeight=1080
+defaultWallpaperTheme=Next
+defaultWidth=1920
