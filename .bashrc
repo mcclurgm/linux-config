@@ -39,7 +39,7 @@ unset color_prompt force_color_prompt
 
 
 # prompt
-export PS1='\u@\h:\W\$ '
+export PS1='\u:\W\$ '
 
 # aliases
 alias stdwal='wal -t -i'
