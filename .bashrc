@@ -54,7 +54,8 @@ alias cp='cp -iv'
 alias mv='mv -iv'
 alias mkdir='mkdir -pv'
 alias trash='gvfs-trash'
-alias graph='git log --all --graph --oneline --decorate'
+alias rmd='rm -r'
+alias gitgraph='git log --all --graph --oneline --decorate'
 
 
 #   mans:   Search manpage given in agument '1' for term given in argument '2' (case insensitive)
