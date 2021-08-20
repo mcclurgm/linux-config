@@ -21,6 +21,14 @@
   * Currently just libinput changes to get gnome-like touchpad
   * Uncertain of numbers, but libinput is 40 so I put touchpad one higher
 
+## Settings documents
+
+`xps-power-management.md`
+
+* Since my XPS 13 has issues with power draw during suspend, these are the settings that I changed to make it work as expected again. They are the recommended changes by powertop, and I'm going to try all of them to see if I can get the power drain to be a little better. If I keep having issues, I can always change the sleep state from P2 to P3.
+* 
+
 ## Themes
 ### Plasma themes
+
 Location: `~/.local/share/plasma/desktoptheme`
